@@ -2,26 +2,74 @@
 /*.offer-section {*/
 /*    width: 1440px;*/
 /*}*/
-.offer-heading {
-    width: 60%;
-    margin: auto;
-    font-size: 24px;
-    /*letter-spacing: 1.2pt;*/
-    text-align: center;
-    text-align-last: center;
+body {
+    font-family: 'Montserrat', sans-serif;
 
+}
+h1.heading {
+    margin: 50px auto 0;
+    text-align: center;
+    /*text-align-last: center;*/
+    /*border: solid 1px red;*/
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 767px;
 }
 .hr {
     height: 5px;
     width: 45px;
+    border-radius: 5px;
     background-color: #FE0000;
-    border-radius: 2px;
     margin: 10px auto;
+
 }
-.offer-section p {
-    width: 80%;
+p.description {
     font-size: 16px;
-    text-align: center;
-    margin: auto;
     opacity: 0.8;
+    text-align: center;
+    margin: 10px auto 50px;
+    max-width: 920px;
+}
+.icon-bar {
+    margin: auto;
+    /*border: solid 1px red;*/
+    align-content: center;
+}
+
+.icon {
+    padding: 30px;
+    /*margin: 0 10px 0;*/
+
+}
+.icon-bar .icon img {
+    max-height: 60px;
+    /*max-width: 0px;*/
+    /*border: solid 1px red;*/
+}
+.icon-bar .icon p {
+    text-align: center;
+    /*border: solid 1px red;*/
+    margin: 20px;
+    font-weight: 600;
+    color: #262525;
+}
+
+.icon-bar .profile-pic img {
+    width: 100%;
+    max-width: 187px;
+}
+.icon-bar .profile-pic p.name {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.icon-bar .profile-pic p.designation {
+    text-align: center;
+    color: #262525;
+    letter-spacing: 0.9px;
+    font-size: 18px;
 }
