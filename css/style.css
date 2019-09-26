@@ -15,6 +15,7 @@ h1.heading {
     font-size: 24px;
     font-weight: bold;
     max-width: 767px;
+    letter-spacing: 1.2px;
 }
 .hr {
     height: 5px;
@@ -73,3 +74,49 @@ p.description {
     letter-spacing: 0.9px;
     font-size: 18px;
 }
+.square1 {
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #FE0000 50%, #ffffff 100%);
+    /*padding: 10px;*/
+}
+.square1 .offer-heading {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.item1 img {
+    margin-top: -200px;
+    max-height: 710px;
+}
+.item1 {
+    margin-top: 20px;
+}
+.item1 p {
+    padding-left: 50px;
+}
+.square2 {
+    width: 100%;
+    background-image: linear-gradient(to left, #FE0000 50%, #ffffff 100%);
+    margin-top: -150px;
+}
+.square2 .offer-heading {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    padding: 20px;
+    /*float: right;*/
+    margin-left: 550px;
+}
+.item2 img {
+    max-width: 550px;
+    margin-top: -120px;
+}
+.item2 p {
+    /*padding-left: 50px;*/
+}
+
