@@ -86,7 +86,7 @@ p.description {
     font-size: 30px;
     letter-spacing: 1.5px;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .item1 img {
     margin-top: -200px;
@@ -96,7 +96,7 @@ p.description {
     margin-top: 20px;
 }
 .item1 p {
-    padding-left: 50px;
+    padding-left: 170px;
 }
 .square2 {
     width: 100%;
@@ -110,13 +110,49 @@ p.description {
     letter-spacing: 1.5px;
     padding: 20px;
     /*float: right;*/
-    margin-left: 550px;
+    margin-left: 720px;
 }
 .item2 img {
-    max-width: 550px;
+    /*max-width: 550px;*/
     margin-top: -120px;
+    margin-left: 100px;
 }
 .item2 p {
-    /*padding-left: 50px;*/
+    padding-right: 150px;
+}
+.item2 .col-sm-6 {
+    text-align: right;
+}
+.background {
+    background-image: url("../img/bg.png");
 }
 
+.background p.description {
+    font-size: 16px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 10px auto 50px;
+    max-width: 920px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.background h1.heading {
+    margin: 50px auto 0;
+    text-align: center;
+    color: #FE0000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 767px;
+    letter-spacing: 1.2px;
+}
+.content1 {
+    background-color: #ffffff;
+    box-shadow: 0px 20px 30px #2828282E;
+    border-radius: 10px;
+    max-width: 553px;
+}
+.right h5{
+    font-size: 18px;
+    font-weight: bold;
+}
