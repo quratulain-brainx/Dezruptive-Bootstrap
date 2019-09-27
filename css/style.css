@@ -17,7 +17,7 @@ h1.heading {
     max-width: 767px;
     letter-spacing: 1.2px;
 }
-.hr {
+.hr-red {
     height: 5px;
     width: 45px;
     border-radius: 5px;
@@ -90,7 +90,8 @@ p.description {
 }
 .item1 img {
     margin-top: -200px;
-    max-height: 710px;
+    /*max-height: 710px;*/
+    max-width: 100%;
 }
 .item1 {
     margin-top: 20px;
@@ -125,6 +126,7 @@ p.description {
 }
 .background {
     background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
 }
 
 .background p.description {
@@ -151,8 +153,14 @@ p.description {
     box-shadow: 0px 20px 30px #2828282E;
     border-radius: 10px;
     max-width: 553px;
+    height: 100%;
 }
 .right h5{
     font-size: 18px;
     font-weight: bold;
+}
+
+.deck {
+    width: 573px;
+    /*height: 369px;*/
 }
