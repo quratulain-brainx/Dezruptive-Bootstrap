@@ -37,9 +37,17 @@ p.description {
     /*border: solid 1px red;*/
     align-content: center;
 }
+.icon-container {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
 
 .icon {
-    padding: 30px;
+    /*padding: 20px;*/
+    height: 125px;
+    /*width: 100%;*/
     /*margin: 0 10px 0;*/
 
 }
@@ -124,7 +132,7 @@ p.description {
 .item2 .col-sm-6 {
     text-align: right;
 }
-.background {
+.background-img {
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
 }
@@ -138,7 +146,7 @@ p.description {
     color: #ffffff;
     opacity: 0.8;
 }
-.background h1.heading {
+.background-img h1.heading {
     margin: 50px auto 0;
     text-align: center;
     color: #FE0000;
@@ -148,12 +156,16 @@ p.description {
     max-width: 767px;
     letter-spacing: 1.2px;
 }
-.content1 {
+.our-interests-content {
+    width: 100%;
     background-color: #ffffff;
     box-shadow: 0px 20px 30px #2828282E;
     border-radius: 10px;
     max-width: 553px;
     height: 100%;
+}
+.text-container {
+    width: calc(100% - 100px)
 }
 .right h5{
     font-size: 18px;
